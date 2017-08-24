@@ -1,13 +1,12 @@
 {
-  "name": "purity",
-  "version": "1.1.0",
-  "description": "danjpark's test theme",  
+  "name": "clarity",
+  "version": "1.0.0",
+  "description": "danjpark's simple theme",  
   "author": {
 	"name": "Dan Park",
 	"email": "me@danjpark.com"
 	},
   "config":{
-	"posts_per_page": 10
+	"posts_per_page": 7
   }
-  
 }
