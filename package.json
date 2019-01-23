@@ -1,12 +1,17 @@
 {
   "name": "clarity",
   "version": "1.0.0",
-  "description": "danjpark's simple theme",  
+  "description": "danjpark's simple theme",
   "author": {
-	"name": "Dan Park",
-	"email": "me@danjpark.com"
-	},
+    "name": "Dan Park",
+    "email": "me@danjpark.com"
+  },
   "config":{
-	"posts_per_page": 7
-  }
+    "posts_per_page": 7
+  },
+  "keywords": [
+    "ghost",
+    "theme",
+    "ghost-theme"
+  ]
 }

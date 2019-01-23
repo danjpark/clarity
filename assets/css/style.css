@@ -73,7 +73,7 @@
     font-size: 75%;
 }
 
-/* Each icon is created by inserting the corret character into the 
+/* Each icon is created by inserting the corret character into the
    content of the :before pseudo element. Like a boss. */
 .icon-ghost:before {content: "\e000";}
 .icon-feed:before {content: "\f09e";}
@@ -145,14 +145,14 @@ a:focus {
 }
 
 /* ==========================================================================
-   2.1 Colours - All the colors set up is here to provide an easy way 
+   2.1 Colours - All the colors set up is here to provide an easy way
                 to change the theme colorscheme
    ========================================================================== */
 
 
 /* Moved in the import section at the top of the document */
 
-    
+
 /* ==========================================================================
    2.2 Fonts - All the fonts are configured here
    ========================================================================== */
@@ -278,8 +278,8 @@ body,
         background: #fff !important;
     }
     .back {
-        margin-top: -2%;   
-        padding-bottom: 2em; 
+        margin-top: -2%;
+        padding-bottom: 2em;
         font-size: 0.8em;
     }
     .post-title {
@@ -590,3 +590,13 @@ pre code {
         padding: 2em 1em 0;
     }
 }
+
+/* ==========================================================================
+   6. Extra
+   ========================================================================== */
+
+.kg-width-wide{}
+.kg-width-full{}
+.kg-gallery-container{}
+.kg-gallery-row{}
+.kg-gallery-image{}
