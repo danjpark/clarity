@@ -130,12 +130,14 @@ h4, h5, h6 {
 
 a {
     text-decoration: none;
-	/*color: #ffa200;*/
+	  color: #155F83;
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
-}
+    /* text-decoration: underline; */
+    /* background-color: #E0D68A; */
+    color: #E4B363;
+  }
 
 /* Hides shit */
 .hidden {
@@ -189,65 +191,67 @@ body,
     margin-left: -25%;
 }
 
-    .header {
-        margin: 1.5em 2em 0;
-        text-align: right;
-    }
+.sidebar a:hover ,
+.sidebar a:focus
+{
+  text-decoration: none;
+  /* border-radius:10px;
+  padding: 2px; */
 
-        .blog-title,
-        .blog-description {
-            margin: 0;
-        }
-        .blog-title {
-            text-transform: uppercase;
-        }
-        .blog-description {
-            font-weight: 300;
-        }
+}
 
-        .blog-title a:hover {
-            text-decoration: none;
-        }
-        #blog-logo img {
-            margin-bottom: 1em;
-        }
+.header {
+    margin: 1.5em 2em 0;
+    text-align: right;
+}
 
-        .nav-list {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-            .nav-item {
-                display: inline-block;
-                *display: inline;
-                zoom: 1;
-            }
-            .nav-item a {
-                margin-top: 1em;
-            }
-            .nav-item a:hover,
-            .nav-item a:focus {
-                text-decoration: none;
-            }
+.blog-title,
+.blog-description {
+    margin: 0;
+}
+.blog-title {
+    text-transform: uppercase;
+}
+.blog-description {
+    font-weight: 300;
+}
 
-        .social-list {
-            margin: 0;
-            margin-top: 1.5em;
-            padding: 0;
-            list-style: none;
-        }
-            .social-item {
-                display: inline-block;
-                *display: inline;
-                zoom: 1;
-            }
+.blog-title a:hover {
+    text-decoration: none;
+    color: #E0D68A;
+}
+#blog-logo img {
+    margin-bottom: 1em;
+}
 
-            .social-item a {
-                margin-top: 1em;
-            }
-            .social-item a:hover {
-                text-decoration: none;
-            }
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    margin-top: 1em;
+}
+.nav-item a:hover,
+.nav-item a:focus {}
+
+.social-list {
+    margin: 0;
+    margin-top: 1.5em;
+    padding: 0;
+    list-style: none;
+}
+.social-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
 
 .content-subhead {
     text-transform: uppercase;
