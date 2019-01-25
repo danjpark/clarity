@@ -1,28 +1,7 @@
-.sidebar {
-    background: #320A28;
-    color: #fff;
-}
-.sidebar a {
-    color: #fff;
-}
-.sidebar a:hover {
-    color: #E0D68A;
-}
-
-.blog-title a:hover {
-    color: #E0D68A;
-}
-
-.blog-description {
-    color: #fff;
-}
-#blog-logo img {
-    margin-bottom: 1em;
-}
 
 .nav-item a {
     background: transparent;
-    border: 10px solid #E0D68A;
+    border: 10px solid #E4B363;
 }
 .nav-item a:hover,
 .nav-item a:focus {

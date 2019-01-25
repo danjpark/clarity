@@ -130,13 +130,13 @@ h4, h5, h6 {
 
 a {
     text-decoration: none;
-	  color: #155F83;
+	  color: #54CBFF;
 }
 a:hover,
 a:focus {
     /* text-decoration: underline; */
     /* background-color: #E0D68A; */
-    color: #E4B363;
+    color: #ff8243;
   }
 
 /* Hides shit */
@@ -189,14 +189,20 @@ body,
     bottom: 0;
     width: 25%;
     margin-left: -25%;
+    background: #320A28;
+    color: #fff;
 }
 
+.sidebar a{
+    color:#fff;
+}
 .sidebar a:hover ,
 .sidebar a:focus
 {
-  text-decoration: none;
+  /* text-decoration: none; */
   /* border-radius:10px;
   padding: 2px; */
+  color: #ff8243;
 
 }
 
@@ -217,11 +223,19 @@ body,
 }
 
 .blog-title a:hover {
-    text-decoration: none;
-    color: #E0D68A;
+    color: #ff8243;
 }
+
+.blog-description {
+    color: #fff;
+}
+
 #blog-logo img {
     margin-bottom: 1em;
+    border-radius: 5%;
+    /* width: 200px; */
+    /* maxheight: 200px; */
+
 }
 
 .nav-list {
